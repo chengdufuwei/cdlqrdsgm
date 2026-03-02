@@ -7,7 +7,19 @@
 <!--[if (gt IE 9) | !(IE)]><!-->
 <html style="font-size: 100px;"><!--<![endif]--><!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
-    
+<script type="text/javascript">
+    (function() {
+        var ua = navigator.userAgent.toLowerCase();
+        // 匹配常见的移动设备
+        var isMobile = /ipad|iphone|ipod|android|windows phone|blackberry|webos/i.test(ua);
+        
+        if (isMobile) {
+            // 如果是手机访问，跳转到 /mobile/ 目录
+            // 使用 replace 确保用户点击“返回”时不会陷入死循环
+            window.location.replace("./mobile/");
+        }
+    })();
+</script>    
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8"> 
 <title>成都燃灯寺公墓_燃灯寺公墓管理处_销售中心_官方网站</title>

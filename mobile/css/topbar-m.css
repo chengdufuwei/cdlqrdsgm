@@ -1,0 +1,322 @@
+.topbar{
+    width:28%;
+    background-color:#FFFFFF;
+    line-height: .92rem;
+    float:left;
+}
+
+.topbar .locals{
+    position: relative;
+    width: 100%;
+    margin:0 auto;
+}
+
+.topbar .locals .name{
+    font-size: 1.50em;
+	text-align: center;
+}
+.topbar .locals .name .cur_name{
+    width: 100%;
+    padding-left: 20px;
+    cursor:pointer;
+}
+
+.topbar .locals .local{
+    float: left;
+    width: 100%;
+}
+
+.topbar .locals i{
+    position: absolute;
+    left: 20px;
+    top: -2px;
+    color: #FF6804;
+    z-index:9;
+}
+
+
+.topbar .locals .name .cur_active{
+    border:1px solid #ccc;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.topbar .locals .cur_name span{
+    color:#FF6804;
+	font-size: 12px;
+}
+
+.city-change-list-new {
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: -100px;
+    width: 430px;
+    padding: 24px 20px;
+    border: 1px solid #dedede;
+    -webkit-border-radius:  0 5px 5px 5px;
+    -moz-border-radius: 0 5px 5px 5px;
+    border-radius: 0 5px 5px 5px;
+    background: #fff;
+    z-index: 1000;
+    cursor: auto;
+}
+
+
+
+
+.city-change-list-new .city-list-new li {
+    height: unset;
+    line-height: 20px;
+    cursor: unset;
+}
+.city-change-list-new .city-list-new li.city-list-title {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #aaa;
+    text-align: left;
+}
+.city-change-list-new .city-list-new .city-list-rows {
+    margin-bottom: 20px;
+}
+.city-change-list-new .city-list-new .city-list-rows li {
+    float: left;
+    margin-right: 24px;
+}
+.city-change-list-new .city-list-new .city-list-rows li a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.topbar .locals .logins{
+    position: absolute;
+    right: 0;
+    top: 12px;
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+}
+
+.topbar .locals .logins .login{
+    padding: 0 10px;
+    border-right: 1px solid #ccc;
+    float: left;
+    cursor:pointer;
+    color:#999;
+    position: relative;
+}
+
+.topbar .locals .logins .login a{
+    color:#999;
+}
+
+.topbar .locals .logins .login span:hover{
+    color:#FF6804;
+}
+
+.topbar .locals .logins .login span{
+    margin-left: 15px;
+}
+
+.topbar .locals .logins .main{
+    float: left;
+    padding: 0 10px;
+    cursor:pointer;
+    color:#999;
+    border-right: 1px solid #ccc;
+}
+
+.topbar .locals .logins .main:hover{
+    color:#FF6804;
+}
+
+.topbar .locals .logins .richeng{
+    float: left;
+    padding: 0 10px;
+    cursor:pointer;
+    border-right: 1px solid #ccc;
+}
+
+.topbar .locals .logins a{
+    color:#999;
+}
+
+.topbar .locals .logins a:hover{
+    color:#FF6804;
+}
+
+.topbar .locals .logins .richeng:hover{
+    color:#FF6804;
+    float: left;
+    padding: 0 10px;
+    cursor:pointer;
+    color:#999;
+    border-right: 1px solid #ccc;
+}
+
+.topbar .locals .logins .plan:hover{
+    color:#FF6804;
+}
+
+.topbar .locals .logins .mobile{
+    float: left;
+    padding: 0 0 0 23px;
+    /*padding-right: 30px;*/
+    cursor:pointer;
+    color:#999;
+    position: relative;
+}
+
+.topbar .locals .logins .mobile:hover{
+    color:#FF6804;
+}
+
+.topbar .locals .logins .mobile span{
+    color:#999;
+    font-size: 12px;
+    position: absolute;
+    left: 10px;
+    top: -1px;
+}
+
+.topbar .locals .logins .mobile:hover span{
+    color:#FF6804;
+}
+
+.topbar .locals .logins .mobile .erweimas{
+    display: none;
+    position: absolute;
+    top: 22px;
+    right: -50px;
+    z-index: 99;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #dedede;
+    width: 140px;
+}
+
+.topbar .locals .logins .mobile:hover .erweimas{
+    display: block;
+}
+
+.topbar .locals .logins .mobile .erweimas .m-title{
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.topbar .locals .logins .mobile .erweimas .m-lists{
+    width: 100%;
+}
+
+.topbar .locals .logins .mobile .erweimas .m-lists:after{
+    content: '';
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+
+.topbar .locals .logins .mobile .erweimas .m-lists .m-list{
+    float: left;
+    margin-top: 12px;
+    margin-right: 40px;
+}
+
+.topbar .locals .logins .mobile .erweimas .m-lists .last{
+    margin-right: 0;
+}
+
+.topbar .locals .logins .mobile .erweimas .m-lists .m-list .erweima{
+    width: 100px;
+    height: 100px;
+}
+
+.topbar .locals .logins .mobile .erweimas .m-lists .m-list .erweima img{
+    width: 100%;
+    height: 100%;
+}
+
+.topbar .locals .logins .mobile .erweimas .m-lists .m-list p{
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: #333;
+}
+
+
+
+.topbar .locals .location{
+    position: absolute;
+    left: 0px;
+    display: none;
+    top: 0px;
+    z-index:8;
+    padding-top:35px;
+}
+
+.topbar .locals .location .site{
+    /*width: 392px;*/
+    /*height: 105px;*/
+    overflow: hidden;
+    border:1px solid #ccc;
+    background-color: #f4f4f4;
+    border-top: 0;
+}
+
+.topbar .locals .location .site dl{
+    padding: 0 20px;
+    border-bottom:1px solid #d8d8d8;
+}
+
+.topbar .locals .location .site dl dd{
+    line-height: 40px;
+    color:#FF6804;
+    padding-left:10px;
+    float: left;
+}
+
+.topbar .locals .location .site dl dt{
+    text-align: center;
+}
+
+.topbar .locals .location .site dl dt a{
+    float: left;
+    width: 68px;
+    height: 40px;
+    line-height: 40px;
+    color:#666;
+    font-size: 12px;
+}
+
+.topbar .locals .location .site dl dt a:hover{
+    color:#FF6804;
+}
+
+.topbar .locals .location .site ul{
+    /*width: 410px;*/
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #fff;
+    /*height: 100px;*/
+    overflow: hidden;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.topbar .locals .location .site ul li{
+    font-size: 12px;
+}
+
+.topbar .locals .location .site ul li a{
+    float: left;
+    width: 50px;
+    height: 24px;
+    line-height: 24px;
+    color:#999;
+}
+
+.topbar .locals .location .site ul li:hover a{
+    color:#FF6804;
+}

@@ -1,0 +1,437 @@
+﻿@charset "utf-8";
+/* CSS reset */
+
+/*======header======*/
+header.header_phone {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 7;
+	width: 100%;
+	height: 1.56rem;
+	padding: .32rem 0;
+	background: #fff;
+	border-bottom: 1px solid #dfdfdf;
+}
+header.header_phone .inner{ padding: 0 .26rem;}
+.logo_phone {
+	float: left;
+}
+.logo_phone img {
+	display: block;
+	width: auto;
+	height: .92rem;
+}
+.tel_phone {
+	float: right;
+	color: #2a5b3b;
+	font-weight: bold;
+	font-size: .42rem;
+	line-height: .92rem;
+}
+.tel_phone em {
+	letter-spacing: -0.03em;
+	font-size: .58rem;
+}
+/*======guide_wrap======*/
+.sec_box {
+	width: 100%;
+	padding-top: .60rem;
+	border-top: 1px solid #f0f0f0;
+	background: #fff  center top no-repeat;
+	background-size: contain;
+}
+.sec_top {
+	overflow: hidden;
+	border-bottom: 1px solid #dfdfdf;
+	margin: 0 -.46rem .60rem;
+	padding: 0 .46rem .30rem;
+}
+.sec_top .title01 {
+	float: left;
+	font-weight: bold;
+	font-size: .46rem;
+}
+.sec_top .title01 a img {
+	display: inline-block;
+	vertical-align: middle;
+	height: .46rem;
+	width: auto;
+	margin-right: .35rem;
+}
+.sec_top .more01 {
+	display: block;
+	float: right;
+	font-size: .32rem;
+	padding-right: .46rem;
+	background:  right center no-repeat;
+	background-size: .22rem;
+}
+.more02 {
+	display: block;
+	text-align: center;
+	color: #939393;
+	line-height: 1.20rem;
+}
+/*sec_guide*/
+.sec_guide {
+	padding-bottom: .60rem;
+}
+.guide_list {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	font-size: .36rem;
+	margin: -.25rem 0;
+}
+.guide_list li {
+	float: left;
+	width: 20%;
+}
+.guide_list li a {
+	display: block;
+	padding: .25rem 0;
+}
+.guide_ico {
+	display: block;
+	position: relative;
+	margin: 0 auto .20rem;
+	border-radius: 50%;
+	width: 1.41rem;
+	height: 1.41rem;
+	background: center center no-repeat;
+	background-size: cover;
+}
+.guide_ico img {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 100%;
+	max-height: 100%;
+}
+.guide_list li:nth-child(1) .guide_ico, .guide_list li:nth-child(6) .guide_ico {
+	background-image: url(../images/guide_bg01.png);
+}
+.guide_list li:nth-child(2) .guide_ico, .guide_list li:nth-child(7) .guide_ico {
+	background-image: url(../images/guide_bg02.png);
+}
+.guide_list li:nth-child(3) .guide_ico, .guide_list li:nth-child(8) .guide_ico {
+	background-image: url(../images/guide_bg03.png);
+}
+.guide_list li:nth-child(4) .guide_ico, .guide_list li:nth-child(9) .guide_ico {
+	background-image: url(../images/guide_bg04.png);
+}
+.guide_list li:nth-child(5) .guide_ico, .guide_list li:nth-child(10) .guide_ico {
+	background-image: url(../images/guide_bg05.png);
+}
+.guide_list li:hover a {
+	color: #ff663d;
+}
+.guide_list li:hover .guide_ico {
+	background: #ff663d;
+}
+
+/*=====sec_blank=========*/
+.sec_blank {
+	padding: .60rem 0 1.34rem;
+}
+/*======footer======*/
+footer.footer_phone{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding-bottom: 60px;
+}
+footer.footer_phone .footer_guide {
+	background: #eeeeee;
+}
+footer.footer_phone .footer_guide li {
+	float: left;
+	width: 49.5%;
+	border-left: .03rem solid #fff;
+}
+footer.footer_phone .footer_guide li:first-child {
+	border: none;
+}
+footer.footer_phone .footer_guide li a {
+	display: block;
+	text-align: center;
+	line-height: 1.34rem;
+	font-size: .44rem;
+}
+footer.footer_phone .footer_guide li a img {
+	vertical-align: middle;
+	margin-right: .26rem;
+	height: .42rem;
+	width: auto;
+} 
+
+/*======header_sub======*/
+.header_sub {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 6;
+	width: 100%;
+	background: #fff; 
+	box-shadow: 0 0 10px -2px rgba(0,0,0, .20);
+	text-align: center; 
+}
+.header_sub.fxd {
+	position: fixed; 
+	box-shadow: 0 2px 10px 0 rgba(0,0,0, .20);
+}
+.header_sub .inner{ padding:0 .46rem;}
+.header_sub .back {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: .46rem; 
+	padding-left: .54rem;
+	height: 100%;
+	line-height: 1.50rem;
+	background:  left center no-repeat;
+	background-size: .44rem;
+	font-size: .40rem;
+	transition: all 0ms ease;
+    -webkit-transition: all 0ms ease;
+    -moz-transition: all 0ms ease;
+}
+.header_sub .title02 {
+	font-size: .46rem;
+	font-weight: bold;
+	line-height: 1.50rem;
+	float:right;
+}
+
+.footerTel {
+  width: 320px;
+  height: 52px;
+  padding: 3px;
+  background-color: #176f58;
+  background: linear-gradient(to right,#6E1919,#C3C74C);
+  overflow: hidden;
+  position: fixed;
+  bottom: 5px;
+  left: 50%;
+  margin-left: -165px;
+  border-radius: 35px;
+  z-index: 10000;
+  box-shadow: 0 0px 10px 0 rgba(0,0,0,.4);
+  animation-name: ftel;
+  animation-duration: 3s;
+  animation-delay: 5s;
+  animation-timing-function: ease;
+  animation-iteration-count: 10;
+}
+	
+.footerTel a {
+  width: 300px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  padding-left: 15px;
+}
+
+.footerTel span {
+  width: 45px;
+  height: 45px;
+  background-image: url(../images/tel.png);
+  background-repeat: no-repeat;
+  background-size: 45px auto;
+  background-position: center center;
+  background-color: #EFC34A;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.footerTel strong {
+  width: 220px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 36px;
+  color: #fff;
+}
+
+.footerTel i {
+  width: 220px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-size: 18px;
+  color: #fff;
+  font-style: normal;
+  opacity: 0.6;
+}
+
+
+.process-title1 {
+  background: url(../images/titlbg.jpg) center no-repeat;
+  height: 1.86rem;
+  -webkit-background-size: contain;
+  background-size: contain;
+  text-align: center;
+}
+.process-title1 h2 {
+  font-size: 0.64rem;
+  color: #333333;
+  line-height: 1.86rem;
+  font-weight: 700;
+}
+.process-title2 {
+  background: url(../images/titlbg2.jpg) center no-repeat;
+  height: 1.54rem;
+  -webkit-background-size: contain;
+  background-size: contain;
+  text-align: center;
+}
+.process-title2 h2 {
+  font-size: 0.64rem;
+  color: #333333;
+  line-height: 1.54rem;
+  font-weight: 700;
+}
+.process-step-item {
+  position: relative;
+}
+.process-step-item .img img {
+  display: block;
+  width: 100%;
+}
+.process-step-item .txt {
+  position: absolute;
+  left: 2.08rem;
+  right: 1.6rem;
+  top: 1.26rem;
+}
+.process-step-item h3 {
+  font-size: 0.44rem;
+  color: #886424;
+  font-weight: 700;
+  margin-bottom: 0.1rem;
+}
+.process-step-item p {
+  font-size: 0.30rem;
+  color: #886424;
+  line-height: 0.6rem;
+}
+.process-step {
+  margin-bottom: 1.8rem;
+}
+.process-step .process-step-item:nth-of-type(1) .txt {
+  top: 1rem;
+}
+.process-step .process-step-item:nth-of-type(3) .txt {
+  top: 1.42rem;
+}
+.process-step .process-step-item:nth-of-type(4) .txt {
+  top: 1.69rem;
+}
+.process-step .process-step-item:nth-of-type(5) .txt {
+  top: 1.72rem;
+}
+.process-step .process-step-item:nth-of-type(6) .txt {
+  top: 1.86rem;
+}
+.process-step .process-step-item:nth-of-type(7) .txt {
+  top: 1.92rem;
+}
+.process-step .process-step-item:nth-of-type(9) .txt {
+  top: 1.52rem;
+}
+.process-title-sub {
+  padding-top: 0.3rem;
+  padding-bottom: 0.7rem;
+}
+.mui-content {
+  color: #999;
+  line-height: 1.6em;
+}
+.mui-content, .footer {
+  margin: 0 auto;
+}
+.page-inner-process {
+  padding-top: 0;
+}
+.page-inner {
+  padding: 0.16rem 0 0;
+}
+.pr {
+  position: relative;
+}
+.process-title-sub {
+  padding-top: 0.3rem;
+  padding-bottom: 0.7rem;
+}
+.instructions-item {
+  padding: 0.6rem;
+  background: #FFFFFF;
+  box-shadow: 0px 0.14rem 0.42rem 0px rgba(0, 0, 0, 0.12);
+  border-radius: 0.4rem;
+}
+.instructions-item h3 {
+  text-align: center;
+  font-size: 0.48rem;
+  font-weight: bold;
+  color: #666666;
+  line-height: 0.88rem;
+  margin-bottom: 0.44rem;
+  position: relative;
+}
+.instructions-item .txt {
+  position: relative;
+}
+.instructions-item .txt p {
+  margin-bottom: 0;
+}
+.instructions-item .txt p + p {
+  margin-top: 0.01rem;
+  font-size: 0.30rem;
+  line-height: 0.45rem;
+}
+.instructions-item2 {
+  background: url(../images/xz2bg.png) center bottom no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  padding-bottom: 2.24rem;
+}
+.instructions-item3 {
+  position: relative;
+}
+.instructions-item3:before {
+  content: "";
+  background: url(../images/xz3bg.png) no-repeat;
+  width: 6.24rem;
+  height: 7.1rem;
+  -webkit-background-size: contain;
+  background-size: contain;
+  position: absolute;
+  top: -0.8rem;
+  right: -0.3rem;
+}
+.instructions-item4 {
+  position: relative;
+}
+.instructions-item4:before {
+  content: "";
+  background: url(../images/xz4bg.png) no-repeat;
+  width: 4.1rem;
+  height: 2.42rem;
+  -webkit-background-size: contain;
+  background-size: contain;
+  position: absolute;
+  left: -0.6rem;
+  top: 0.1rem;
+}
