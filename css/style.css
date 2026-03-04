@@ -460,7 +460,7 @@ main{ overflow: hidden;}
 .screen02 .screen_block .screen_terms a.s_child.on{ font-weight:bold;}
 .screen01 .screen_result .result_terms .result_show a{ color: #666; line-height: 26px; }
 .screen01 .screen_result .result_terms .result_show a em,
-.screen02 .screen_result .result_terms .result_show a em{ display:inline-block; padding-right: 20px; background: url(http://www.rdsly.cn/images/504) right center no-repeat; background-size: 14px;}
+.screen02 .screen_result .result_terms .result_show a em{ display:inline-block; padding-right: 20px; background:  right center no-repeat; background-size: 14px;}
 .screen01 .screen_result .result_terms .clear_btn,
 .screen02 .screen_result .result_terms .clear_btn{ cursor:pointer; display:none; padding:10px 0 0; color: #999;}
 .screen01 .screen_result .result_terms .clear_btn:hover,
@@ -558,7 +558,7 @@ a.mark_hui{ background-color:#15bf71;}
 .landscape_list li{ float:left; width:25%; padding: 15px; text-align: center;} 
 .landscape_list li a{ display:block; padding-bottom: 10px; }  
 .landscape_list li a .img_box{ padding-top: 100%; margin-bottom: 20px;} 
-.ico_video{ display:block; position: absolute; top:0; left:0; z-index: 1; width:100%; height: 100%; background: url(http://www.rdsly.cn/images/504) center center no-repeat; background-size: 25%;}
+.ico_video{ display:block; position: absolute; top:0; left:0; z-index: 1; width:100%; height: 100%; background:  center center no-repeat; background-size: 25%;}
 .landscape_list li a .tit{}
 .landscape_list li a:hover{ color: #fb4632; box-shadow: 0 5px 10px -2px rgba(0,0,0, .10); transform: translateY(-3px);} 
 
@@ -707,10 +707,10 @@ a.item_more{ float:right; background: red; display:none;}
 .map_cemetery_item:hover a.item_more{ display:block; -webkit-animation: 1s .2s fadeIn both; animation: 1s .2s fadeIn both;}
 /*map_switch*/
 .map_switch{ position: absolute; width: 40px; height: 68px; line-height: 68px; border-radius: 0 5px 5px 0; right: -40px; top: 50%; margin-top: -44px; background-color: rgba(255,255,255,.95); cursor: pointer; text-align: center; box-shadow: 2px 0 2px 0 rgba(0,0,0,0.35);}
-.map_switch:before { content:""; position: absolute; top:0; left:0; width:100%; height: 100%; background: url(http://www.rdsly.cn/images/504) center center no-repeat; background-size: 11px;}
-.map_switch:hover:before{ background-image: url(http://www.rdsly.cn/images/504);}
-.map_switch.open:before{ background-image: url(http://www.rdsly.cn/images/504);}
-.map_switch.open:hover:before{ background-image: url(http://www.rdsly.cn/images/504);}
+.map_switch:before { content:""; position: absolute; top:0; left:0; width:100%; height: 100%; background:  center center no-repeat; background-size: 11px;}
+.map_switch:hover:before{ }
+.map_switch.open:before{ }
+.map_switch.open:hover:before{ }
 /*map_show*/
 .map_show{ width: 100%; height: 100%; position: absolute; top:0; left:0; /*background: url(../images/map_01.jpg) center center no-repeat; background-size: cover;*/}
 /*======================================09 ======================================*/
@@ -718,7 +718,7 @@ a.item_more{ float:right; background: red; display:none;}
 /*question_search*/
 .question_search{ width:100%; max-width: 467px; margin: 0 auto 50px; overflow: hidden; position: relative; box-shadow: 13px 13px 7px 0 rgba(0,0,0, .04);}
 .search_form{}
-.search_txt{ background: #fff url(http://www.rdsly.cn/images/504) 13px center no-repeat; background-size: 20px; border:1px solid #d8d8d8; box-shadow:inset 0 0 9px 3px rgba(0,0,0, .04); border-radius:6px; width:100%; padding:0 100px 0 43px; height: 50px;}
+.search_txt{ background: #fff  13px center no-repeat; background-size: 20px; border:1px solid #d8d8d8; box-shadow:inset 0 0 9px 3px rgba(0,0,0, .04); border-radius:6px; width:100%; padding:0 100px 0 43px; height: 50px;}
 .search_btn{ display:block; cursor:pointer; background: #ff462e; color: #fff; border-radius:0 6px 6px 0; position: absolute; top:0; right:0; z-index: 1; width:90px; height: 100%;}
 /*search_wrap*/
 #search_wrap{}
@@ -800,7 +800,7 @@ a.item_more{ float:right; background: red; display:none;}
 .discount{ padding: 30px 40px 40px;}
 .discount_list{ overflow: hidden; margin: -15px -16.5px;}
 .discount_list li{ float:left; width:33.33%; padding:15px 16.5px;}
-.discount_list li a{display:block; background: url(http://www.rdsly.cn/images/504) center center no-repeat; background-size: contain; color: #fff; position: relative; padding-top: 34.286%;}
+.discount_list li a{display:block; background:  center center no-repeat; background-size: contain; color: #fff; position: relative; padding-top: 34.286%;}
 .discount_info{ position:absolute; top:0; left:0; width:100%; height: 100%; display:flex; flex-wrap: wrap; align-items: center; text-align: center; padding-left: 13.43%;}
 .discount_text{ width:100%;} 
 .discount_vip{ margin-top: 6px;}
@@ -884,9 +884,9 @@ a.item_more{ float:right; background: red; display:none;}
 .videos_img{ display:block; overflow: hidden; position: relative;}
 .videos_img .img_box{ padding-top: 74.44%;}
 .videos_list li .tit{ display:block; margin-top: 15px; margin-bottom: 5px;}
-.videos_shared{ display:inline-block; border-radius: 3px; border:1px solid #e6e6e6; background: url(http://www.rdsly.cn/images/504) repeat-x; line-height: 23px; font-size: 12px; text-align: center; min-width: 118px; padding: 0 10px;}
-.videos_shared em{ display:inline-block; padding-left: 23px; background: url(http://www.rdsly.cn/images/504) left center no-repeat; background-size: 18px;}
-.videos_shared:hover{ background-image: url(http://www.rdsly.cn/images/504);}
+.videos_shared{ display:inline-block; border-radius: 3px; border:1px solid #e6e6e6; background:  repeat-x; line-height: 23px; font-size: 12px; text-align: center; min-width: 118px; padding: 0 10px;}
+.videos_shared em{ display:inline-block; padding-left: 23px; background:  left center no-repeat; background-size: 18px;}
+.videos_shared:hover{ }
 .videos_list li:hover{ box-shadow: 0 0 10px -2px rgba(0,0,0, .20);}
 .videos_list li .img_box img{ transition: transform 3s cubic-bezier(.23, 1, .32, 1); transform: scale(1);}
 .videos_list li:hover .img_box img{ transform: scale(1.1); } 
@@ -986,15 +986,15 @@ header.header02{ height:104px; overflow: hidden;}
 #service_tabs .owl-item:last-child .item{ border-radius:0 5px 0 0;}
 #service_tabs .current .item{ background: #7f623d;}
 #service_show .owl-nav a{ display:block; text-indent: -99999px; position: absolute; top:-40px; width:30px; height: 30px; background: left center no-repeat; background-size: 8px;}
-#service_show .owl-nav a.owl-prev{ left:0; background-image: url(http://www.rdsly.cn/images/504);}
-#service_show .owl-nav a.owl-next{ right:0; background-position:right center; background-image: url(http://www.rdsly.cn/images/504);}
+#service_show .owl-nav a.owl-prev{ left:0; }
+#service_show .owl-nav a.owl-next{ right:0; background-position:right center; }
 #service_show{ border-radius:0 0 5px 5px; border:1px solid #dcdcdc; border-top:none; padding:3.5% 2.50%;} 
 .service_img{ float:left; width: 28.83%; max-width:328px; margin-right: 2%;}
 .service_img .img_box{ padding-top: 67.074%;}
 .service_overview{ overflow:hidden; line-height: 1.90;}
 .service_tit{ margin-bottom:20px;}
 /*sec_sets*/
-.sec_sets{ background-color:#f1f0ec; background-image:url(http://www.rdsly.cn/images/504); background-attachment: fixed;}
+.sec_sets{ background-color:#f1f0ec;  background-attachment: fixed;}
 #sets_scr{ margin: -25px;}
 #sets_scr .item{ float:left; width:33.33%; padding: 25px;}
 .sets_block{ border-radius:15px; box-shadow: 0 14px 68px 0 rgba(0,0,0,.10);}
@@ -1029,17 +1029,17 @@ header.header02{ height:104px; overflow: hidden;}
 .sec_feedback{ background-color: #f0efec;}
 
 /*======================================06======================================*/ 
-.deposit_wrap{ background:#e7e4da url(http://www.rdsly.cn/images/504) center top no-repeat; background-size: cover; padding: 60px 0;}
+.deposit_wrap{ background:#e7e4da  center top no-repeat; background-size: cover; padding: 60px 0;}
 .deposit_tip{ text-align:center;}
 .deposit_get{ display:block; margin-top: 30px;}
 .deposit_get img{display:block; margin: 0 auto; height: 75px; width:auto;}
 .deposit_get:hover{ opacity:.90;}
 /*deposit_notice*/
-.deposit_notice{ margin-top: 40px; background: url(http://www.rdsly.cn/images/504) center top repeat; color: #fff; position: relative; padding:5% 15% 11%;}
+.deposit_notice{ margin-top: 40px; background:  center top repeat; color: #fff; position: relative; padding:5% 15% 11%;}
 .notice_tit{ text-align: center;}
 .notice_tit_dec{ display:inline-block; vertical-align:middle; background:right center no-repeat; background-size: contain; width: 75px; height: 7px;}
-.notice_tit_dec01{ margin-right:18px; background-image: url(http://www.rdsly.cn/images/504);}
-.notice_tit_dec02{ margin-left:18px; background-image: url(http://www.rdsly.cn/images/504);}
+.notice_tit_dec01{ margin-right:18px; }
+.notice_tit_dec02{ margin-left:18px; }
 .notice_dec01{ display:block; position: absolute; bottom: -7.6%; left:0; z-index: 1; width:130%; max-width: 1558px;}
 .notice_dec02{ display:block; position: absolute; bottom: -7.6%; right:-4%; z-index: 2; width:39%; max-width: 460px;}
 .notice_overview{ margin-top: 4%; line-height: 2.44;}
@@ -1065,7 +1065,7 @@ table.deposit_table tr:hover td{ background: rgba(161,184,193,.07);}
 .recommend_info{ overflow: hidden;  padding: 8%;}
 .recommend_info_top{ border-bottom: 1px solid #81705d; padding-bottom: 10px; margin-bottom: 30px;}
 .recommend_local, .recommend_item{ line-height:22px;}
-.recommend_local{ margin-left: 20px; float:right; padding-left: 20px; background: url(http://www.rdsly.cn/images/504) left center no-repeat; background-size: 12px;}
+.recommend_local{ margin-left: 20px; float:right; padding-left: 20px; background:  left center no-repeat; background-size: 12px;}
 .recommend_item{ overflow:hidden;}
 .recommend_item a{ display:block; overflow: hidden; white-space:nowrap; text-overflow: ellipsis;}
 .recommend_des{ overflow: hidden;}
@@ -1083,10 +1083,10 @@ table.deposit_table tr:hover td{ background: rgba(161,184,193,.07);}
 .what_con:before, .what_con:after{ content:""; height:3px; background: rgba(255,255,255, .30); position: absolute; top:0; left:34px; width: -webkit-calc(100% - 68px); width: calc(100% - 68px);}
 .what_con:after{ top:auto!important; bottom:0;}
 .corner{ position:absolute; width:34px; height: 34px; background: center center no-repeat; background-size:cover;}
-.corner_lt{ top:0; left:0; background-image: url(http://www.rdsly.cn/images/504);}
-.corner_rt{ top:0; right:0; background-image: url(http://www.rdsly.cn/images/504);}
-.corner_lb{ bottom:0; left:0; background-image: url(http://www.rdsly.cn/images/504);}
-.corner_rb{ bottom:0; right:0; background-image: url(http://www.rdsly.cn/images/504);}
+.corner_lt{ top:0; left:0; }
+.corner_rt{ top:0; right:0; }
+.corner_lb{ bottom:0; left:0; }
+.corner_rb{ bottom:0; right:0; }
 .what_overview{ text-align:center; line-height: 1.67; margin-bottom: 35px;}
 .what_album{ display:flex; flex-wrap: wrap; align-items: center; align-content: center; justify-content:center; margin:-16px;}
 .what_album li{ float:left; width:33.33%; padding: 16px;}
@@ -1114,7 +1114,7 @@ table.deposit_table tr:hover td{ background: rgba(161,184,193,.07);}
 /*======================================08======================================*/ 
 /*sec_geomancer*/
 .sec_geomancer{} 
-.geomancer_box{ background: #f5f5f5 url(http://www.rdsly.cn/images/504) center top no-repeat; background-size: cover; padding: 4.2%;}
+.geomancer_box{ background: #f5f5f5  center top no-repeat; background-size: cover; padding: 4.2%;}
 .geomancer_img{ float:left; width:270px; margin-right: 3.4%;}
 .geomancer_img img{ display:block;}
 .geomancer_info{ overflow:hidden; line-height: 2.14;}
