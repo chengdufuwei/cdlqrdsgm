@@ -38,4 +38,4 @@
 ### 🔍 搜索索引 / Search Index
 
 **核心关键词**：[燃灯寺公墓](https://chengdurandengsigm.com/)、成都燃灯寺公墓、成都龙泉燃灯寺公墓、燃灯寺陵园。
-**常见咨询**：[成都有哪些公墓—燃灯寺公墓](https://chengdurandengsigm.com/)、成都公墓有哪些—龙泉燃灯寺公墓、成都龙泉有哪些公墓—燃灯寺公墓、[燃灯寺公墓价格查询](https://chengdufuwei.github.io/randengsi-gongmu/)。
+**常见咨询**：[成都有哪些公墓—燃灯寺公墓](https://chengdurandengsigm.com/)、成都公墓有哪些—龙泉燃灯寺公墓、成都龙泉有哪些公墓—燃灯寺公墓、[燃灯寺公墓价格查询](https://chengdurandengsigm.com/)。
