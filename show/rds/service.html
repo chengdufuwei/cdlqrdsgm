@@ -39,8 +39,6 @@
 <link rel="stylesheet" type="text/css" href="../../css/skin-9.css">
 <script type="text/javascript" src="../../js/jquery.js"></script> 
 
-||
-
 <script>
 
 $(function(){
@@ -96,22 +94,22 @@ $(function(){
 <script>
 $(function () {
     // 侧面悬浮
-    var data1 = 'true';
+    var data1 = true;
     $('.float_bjfw').click(function () {
-        if (data1 == 'true') {
+        if (data1) {
         	var length = -3 - $('.float_window').width();
             $('.float_window').css('left', length)
-            data1 = 'flase'
+            data1 = false
             $(".close01").text('+')
-        } else if (data1 == 'flase') {
+        } else {
             $('.float_window').css('left', '0')
-            data1 = 'true'
+            data1 = true
             $(".close01").text('x')
         }
     })
 })
 
-setTimeout("$('.float_bjfw').click()",7000);
+setTimeout(function () { $('.float_bjfw').click(); }, 7000);
 </script>
 
 
